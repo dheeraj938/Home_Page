@@ -45,3 +45,32 @@
   border-radius: 5px 5px 0 0;
 }
 
+@media (max-width: 900px) {
+  .navbar {
+    padding: 15px 20px;
+    margin: 5px 10px;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .navbar li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .navbar li {
+    font-size: 14px;
+  }
+}
+
